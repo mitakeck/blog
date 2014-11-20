@@ -1,0 +1,19 @@
+---
+layout: post
+title:  "test"
+date:   2014-11-20 12:02:16
+categories: test
+---
+
+```
+#!/bin/bash
+# Image Convert to eps
+
+images=`ls images`
+for file in $images
+do
+out=${file%.*}.eps
+echo "convert $file => $out"
+`convert images/$file eps/$out`
+done
+```
