@@ -2,8 +2,11 @@
 title: メモ帳
 # email: your-email@domain.com
 description: "情報学科の大学生.
+
 面白いものを作るのが好き.
+
 最近はずっと hubot とおしゃべりしてる.
+
 Aichi"
 baseurl: "http://133.242.129.199/blog" # the subpath of your site, e.g. /blog/
 url: "http://133.242.129.199/" # the base hostname & protocol for your site
