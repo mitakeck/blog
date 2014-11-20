@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "test"
+title:  "画像ファイルを一括で *.eps ファイルに変換するスクリプト"
 date:   2014-11-20 12:02:16
 categories: TeX ImageMagick
 ---

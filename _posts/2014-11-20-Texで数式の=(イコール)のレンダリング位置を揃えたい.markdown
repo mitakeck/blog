@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Texで数式の=(イコール)のレンダリング位置を揃えたい!"
+date:   2014-11-20 12:02:16
+categories: TeX
+---
+
+# Texで数式の=(イコール)のレンダリング位置を揃えたい
+
+```
+\usepackage{mathtools}
+...
+\begin{align*}
+emo &= \argmax_{hoge}P(hoge|foo)\\
+    &= \argmax_{hoge}\frac{P(foo|hoge)P(hoge)}{P(foo)}\\
+    &= \argmax_{hoge}P(foo|hoge)P(foo)
+\end{align*}
+```
