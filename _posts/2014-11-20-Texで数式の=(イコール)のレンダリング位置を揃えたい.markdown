@@ -7,6 +7,8 @@ categories: TeX
 
 # Texで数式の=(イコール)のレンダリング位置を揃えたい
 
+ミソは, mathtools を利用すること.
+
 ```
 \usepackage{mathtools}
 ...
