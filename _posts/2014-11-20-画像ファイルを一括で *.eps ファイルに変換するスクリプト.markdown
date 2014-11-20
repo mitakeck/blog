@@ -2,7 +2,7 @@
 layout: post
 title:  "test"
 date:   2014-11-20 12:02:16
-categories: test
+categories: TeX ImageMagick
 ---
 TeX などに挿入する画像を eps に変換するには ImageMagick を用いる
 
@@ -11,6 +11,7 @@ $ convert before.jpg after.eps
 ```
 
 しかし, 大量の画像の変換や画像の差し替えなどでコマンドをいちいち打ち込むのは面倒です.
+
 そこで、指定フォルダ内の画像を一括で変換するスクリプトを用います.
 
 以下のようなディレクトリ構成である場合を想定します.
